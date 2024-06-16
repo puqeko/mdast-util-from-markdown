@@ -17,7 +17,7 @@ test('fromMarkdown', async function (t) {
   await t.test('should expose the public api', async function () {
     assert.deepEqual(
       Object.keys(await import('mdast-util-from-markdown')).sort(),
-      ['fromMarkdown']
+      ['compiler', 'fromMarkdown']
     )
   })
 

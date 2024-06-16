@@ -11,7 +11,7 @@ export type {
   Value
 } from './lib/index.js'
 
-export {fromMarkdown} from './lib/index.js'
+export {compiler, fromMarkdown} from './lib/index.js'
 
 /**
  * Interface of tracked data.

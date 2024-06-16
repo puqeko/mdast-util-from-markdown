@@ -188,7 +188,7 @@ export function fromMarkdown(value, encoding, options) {
  *
  * @param {Options | null | undefined} [options]
  */
-function compiler(options) {
+export function compiler(options) {
   /** @type {Config} */
   const config = {
     transforms: [],
